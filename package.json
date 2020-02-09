@@ -1,6 +1,6 @@
 {
   "name": "react-native-rename",
-  "version": "2.4.1-rc.0",
+  "version": "2.5.0",
   "description": "Rename react-native app with just one command",
   "main": "lib/index.js",
   "scripts": {
@@ -36,7 +36,7 @@
   "author": "Maycon Mesquita <hello@maycon.dev>",
   "license": "MIT",
   "bin": {
-    "@mayconmesquita/react-native-rename": "lib/index.js"
+    "react-native-rename-next": "lib/index.js"
   },
   "bugs": {
     "url": "https://github.com/mayconmesquita/react-native-rename-next/issues"
