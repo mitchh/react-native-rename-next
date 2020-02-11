@@ -1,6 +1,8 @@
 ### This fork has some new features:
 - Validate bundleID to match requirements for Android; [by [@strdr4605](https://github.com/strdr4605)]
 - Change package name for other java files; (by @strdr4605) [by [@strdr4605](https://github.com/strdr4605)]
+- Add support for App's Name using '&amp' and other special entities;
+- Add Windows compatibility;
 
 Fork from: https://github.com/junedomingo/react-native-rename
 

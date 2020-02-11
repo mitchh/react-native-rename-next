@@ -126,9 +126,7 @@ readFile(path.join(__dirname, 'android/app/src/main/res/values/strings.xml'))
               itemsProcessed += index;
 
               if (fs.existsSync(path.join(__dirname, element)) || !fs.existsSync(path.join(__dirname, element))) {
-                const move = shell.exec(
-                  `git mv "${path.join(__dirname, element)}" "${path.join(__dirname, dest)}" 2>/dev/null`
-                );
+                const move = shell.exec(`git mv "${path.join(__dirname, element)}" "${path.join(__dirname, dest)}"`);
 
                 if (move.code === 0) {
                   console.log(successMsg);
@@ -197,7 +195,7 @@ readFile(path.join(__dirname, 'android/app/src/main/res/values/strings.xml'))
               // Create new bundle folder if doesn't exist yet
               if (!fs.existsSync(fullNewBundlePath)) {
                 shell.mkdir('-p', fullNewBundlePath);
-                const move = shell.exec(`git mv "${fullCurrentBundlePath}/"* "${fullNewBundlePath}" 2>/dev/null`);
+                const move = shell.exec(`git mv "${fullCurrentBundlePath}/"* "${fullNewBundlePath}"`);
                 const successMsg = `${newBundlePath} ${colors.green('BUNDLE INDENTIFIER CHANGED')}`;
 
                 if (move.code === 0) {
