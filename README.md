@@ -2,13 +2,14 @@
 - Validate bundleID to match requirements for Android; [by [@strdr4605](https://github.com/strdr4605)]
 - Change package name for other java files; (by @strdr4605) [by [@strdr4605](https://github.com/strdr4605)]
 - Add support for App's Name using '&amp' and other special entities;
+- Change App's Name and Bundle Identifier in iOS more files (eg.: project.pbxproj, .xcscheme file);
 - Add Windows compatibility;
 
 Fork from: https://github.com/junedomingo/react-native-rename
 
 Rename react-native app with just one command
 
-![react-native-rename](https://cloud.githubusercontent.com/assets/5106887/24444940/cbcb0a58-149a-11e7-9714-2c7bf5254b0d.gif)
+![react-native-rename-next](https://cloud.githubusercontent.com/assets/5106887/24444940/cbcb0a58-149a-11e7-9714-2c7bf5254b0d.gif)
 
 > This package assumes that you created your react-native project using `react-native init`.
 
