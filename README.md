@@ -7,7 +7,14 @@
 
 Fork from: https://github.com/junedomingo/react-native-rename
 
+# iconerator-next
+
+[![NPM version](https://badge.fury.io/js/react-native-rename-next.svg)](http://badge.fury.io/js/react-native-rename-next)
+[![Build Status](https://secure.travis-ci.org/mayconmesquita/react-native-rename-next.png)](http://travis-ci.org/mayconmesquita/react-native-rename-next)
+
 Rename react-native app with just one command
+
+[![NPM](https://nodei.co/npm/react-native-rename-next.png?downloads=true)](https://nodei.co/npm/react-native-rename-next/)
 
 ![react-native-rename-next](https://cloud.githubusercontent.com/assets/5106887/24444940/cbcb0a58-149a-11e7-9714-2c7bf5254b0d.gif)
 
